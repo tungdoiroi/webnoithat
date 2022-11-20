@@ -1,0 +1,50 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+
+*{
+    box-sizing: inherit;
+}
+/* class chung dongf vaf coot*/
+.row{
+
+}
+.col{
+    float:left;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.col-half{
+    width: 50%;
+}
+.col-four {
+    width: 20%;
+}
+.col-full{
+    width: 100%;
+}
+
+/* class chung form chu*/
+html{
+    /*Hach*/
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.sub-nav
+/*responsive*/
+.grid{
+    width: 1350px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
