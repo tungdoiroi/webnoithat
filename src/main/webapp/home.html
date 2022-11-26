@@ -11,6 +11,7 @@
 <!--    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/base.css">
+    <script src="./js/home.js"></script>
 </head>
 <body>
 
@@ -150,35 +151,42 @@
                 <a href="Duan.html" style="text-decoration: none"><p style="color:#F9BC85;padding-top: 80px">Xem tất cả<span style="color: #F9BC85">&#10140;</span></p></a>
             </div>
             <div class="project_content-image">
-            <div class="project_content-image-first">
-                <div class="project_content-img">
-                    <img src="image/project1.png" alt="" >
+                <div class="project_content-image-first">
+                    <div class="project_content--item">
+                        <div class="project_content-img" onclick="clickProjectContentImage('icon_arrow_1')">
+                            <img src="image/project1.png" alt="" >
+                        </div>
+                        <div class="project_content-img-icon icon_arrow_1 hide_icon">
+                            <img src="image/icon-arrow.svg" alt="" >
+                        </div>
+                    </div>
+                    <div class="project_content--item">
+                        <div class="project_content-img" onclick="clickProjectContentImage('icon_arrow_2')">
+                            <img src="image/project2.png" alt="" >
+                        </div>
+                        <div class="project_content-img-icon icon_arrow_2 hide_icon">
+                            <img src="image/icon-arrow.svg" alt="" >
+                        </div>
+                    </div>
+                    <div class="project_content--item">
+                        <div class="project_content-img" onclick="clickProjectContentImage('icon_arrow_3')">
+                            <img src="image/project3.png" alt="" >
+                        </div>
+                        <div class="project_content-img-icon icon_arrow_3 hide_icon">
+                            <img src="image/icon-arrow.svg" alt="" >
+                        </div>
+                    </div>
                 </div>
-                <div class="project_content-img">
-                    <img src="image/project2.png" alt="">
-                </div>
-                <div class="project_content-img">
-                    <img src="image/project3.png" alt="">
-                </div>
-            </div>
-                <div class="stepwizard">
+                <!-- <div class="stepwizard">
                     <div class="stepwizard-row">
                         <div class="stepwizard-step">
                             <button type="button" class="btn btn-default btn-circle">1</button>
                             <p>Cart</p>
                         </div>
-                        <div class="stepwizard-step">
-                            <button type="button" class="btn btn-primary btn-circle">2</button>
-                            <p>Shipping</p>
-                        </div>
-                        <div class="stepwizard-step">
-                            <button type="button" class="btn btn-default btn-circle" disabled="disabled">3</button>
-                            <p>Payment</p>
-                        </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="project_content-image-second">
+            <div class="project_content-image-second">
                 <img src="image/project4.png" alt="">
                 <h3>
                     Objectively buid market-driven metrics via client-focused niche markets
@@ -252,53 +260,43 @@
         </div>
         <div class="col col-half">
             <div class="col col-half">
-               <img src="image/contact1.png" alt="">
+               <img src="image/contact1.png" alt="" style="width: 100%">
             </div>
             <div class="col col-half">
-               <img src="image/contact2.png" alt="">
+               <img src="image/contact2.png" alt="" style="width: 100%">
             </div>
         </div>
-
-
 </div>
 
+<div class="footer">
+    <div class="footer-one">
+        <img src="image/logo.jpg" style="width: 60px;height: 60px">
+        <p>594 Ba Thang Hai, Ward 14, District 10</p>
+        <p>(028)38 687 576 / 0911 267 755 (Hotline)</p>
+        <p>info@fosco.edu.vn</p>
+    </div>
+    <div class="footer-second">
+        <h5>Hỗ trợ khách hàng</h5>
+        <p>Giới thiệu Viet Brother</p>
+        <p>Các câu hỏi thường gặp</p>
+        <p>Hướng dẫn đặt hàng</p>
+        <p>Tuyển dụng</p>
+    </div>
 
+    <div class="footer-three">
+        <h5>Chính sách S-House</h5>
+        <p>Chính sách bảo mật thông tin</p>
+        <p>Chính sách bảo mật thanh toán</p>
+        <p>Chính sách giải quyết khiếu nại</p>
+        <p>Chính sách đổi trả hàng</p>
+        <p>Điều khoản sử dụng</p>
+   </div>
+    <div class="footer-four">
+        <h5>Phương thức thanh toán</h5>
+        <p>Kết nối ngay</p>
+    </div>
 </div>
-
-    </div>
 </body>
-</body>
-    <div class="footer">
-        <div class="footer-one">
-            <img src="image/logo.jpg" style="width: 60px;height: 60px">
-            <p>594 Ba Thang Hai, Ward 14, District 10</p>
-            <p>(028)38 687 576 / 0911 267 755 (Hotline)</p>
-            <p>info@fosco.edu.vn</p>
-        </div>
-        <div class="footer-second">
-            <h5>Hỗ trợ khách hàng</h5>
-            <p>Giới thiệu Viet Brother</p>
-            <p>Các câu hỏi thường gặp</p>
-            <p>Hướng dẫn đặt hàng</p>
-            <p>Tuyển dụng</p>
-        </div>
-
-        <div class="footer-three">
-            <h5>Chính sách S-House</h5>
-            <p>Chính sách bảo mật thông tin</p>
-            <p>Chính sách bảo mật thanh toán</p>
-            <p>Chính sách giải quyết khiếu nại</p>
-            <p>Chính sách đổi trả hàng</p>
-            <p>Điều khoản sử dụng</p>
-       </div>
-        <div class="footer-four">
-            <h5>Phương thức thanh toán</h5>
-            <p>Kết nối ngay</p>
-        </div>
-
-
-    </div>
-
 
 
 </html>

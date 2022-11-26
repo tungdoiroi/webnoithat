@@ -1,7 +1,7 @@
 /*header*/
 body{
-
-
+    max-width: 1440px;
+    margin: auto;
 }
 .header{
     height: 70px;
@@ -259,26 +259,46 @@ body{
     margin: 20px 140px;
 }
 .project_content-image-first{
-    flex: 1;
     padding-right: 10px;
 }
 .project_content-img {
-   padding-right: 10px;
+   margin-right: 36px;
 }
 .project_content-img img{
     width: 300px;
     height: 200px;
+}
+.project_content-img:hover{
+    cursor: pointer;
 }
 .project_content-image-second{
     flex: 1;
     margin-left: 30px;
 }
 .project_content-image-second img{
-
     width: 650px;
     height: 450px;
 }
-.stepwizard-step p {
+.project_content--item{
+    display: flex;
+    border-right: 1px solid;
+    position: relative;
+
+}
+.project_content-img-icon{
+    width: 20px;
+    height: 20px;
+    top: 100px;
+    right: -10px;
+    position: absolute;
+}
+.hide_icon {
+    display: none;
+}
+.show_icon {
+    display: block;
+}
+/* .stepwizard-step p {
     margin-top: 10px;
 }
 
@@ -303,7 +323,7 @@ body{
 .stepwizard-step button[disabled] {
     opacity: 1 !important;
     filter: alpha(opacity=100) !important;
-}
+} */
 
 /*.stepwizard-row:before {*/
 /*    top: 14px;*/
